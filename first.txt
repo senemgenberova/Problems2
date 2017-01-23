@@ -1,2 +1,2 @@
-this is a new text.
+this are a new text.
 This is a second text.
