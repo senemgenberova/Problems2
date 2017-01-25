@@ -1,0 +1,35 @@
+1. Programlaşdırmada deyişenler(variables) veziyyetden ve ya ötürülen informasiyadan asili olaraq deyisen qiymetlerdir.
+************************************************
+
+2.DATA TYPES: 
+1)Boolean - 2 qiymeti var : True(T) ve False(F). Default value-si Falsedur.
+2)İnteger - 32-bit signed(isaresiz). Default value : 0(tam ededler)
+3)Double - 64-bit signed, Default value 0.0D
+4)Float - 32-bit signed, Default value 0.0F(kesr)
+5)Long - 64-bit signed integerdir. Default value 0L
+6)Byte - 8-bit unsigned integerdir. 0-255 arasi qiymet alir. Unsigned olduguna gore yalniz musbet qiymetleri alir. Default value 0;
+7)Sbyte - 8-bit signed integerdir. -128 - 127 arasi qiymetleri alir
+9)uint - 32-bit unsigned integer. Yalniz musbet integer qiymetleri alir.
+10)ulong - 64-bit unsigned integerdir.Yalniz musbet integer qiymetleri alir.
+11)udouble - 64-bit unsigned doubledir.Yalniz musbet kesr qiymetleri alir.
+12)Char - 1 xarakter bildirir(mes : ch = 'a');
+13)String - dirnaq icerisinde yazilir. Klavyaturadan daxil etdiyimiz her bir sey(ededler bele) Stringdir. (meselen s = "Hello code")
+
+************************************************
+3.ARITHMETIC OPERATORS: +(Toplama) -(Cixma) *(Vurma) /(Bolme) %(Qaliq ve ya mod).
+*Ruby ve Groovyde ** -> poweri gosterir.Meselen, 2**4 = 16
+.NETde \ -> bu bolme integer bolmeni gosterir. Meselen 7\2 = 3
+
+************************************************
+4.LOGICAL OPERATORS: && - AND operator. Verilen conditionlarin hamisi T olarsa, T verer. ELse, F. Hesablamalarda And operatoru 1ci nezere alinir(vurma kimi baxiram).
+   || - OR operator. Verilen conditionlarin yalniz 1inin duz olmasi kifayetdir.BU zaman T verir, eks halda F.(toplama kimi baxiram)
+   ! - NOT operatoru. Eger condition True-dursa, onu False-a, False-dursa, True-a cevirir.
+
+************************************************
+5.RELATIONAL OPERATORS:
+a == b - T verir, eger a b-ye beraberdirse;
+a != b - T verir, eger a b-ye beraber deyilse;
+a > b - T verir, eger a b-den boyukdurse;
+a < b - T verir, eger a b-en kicikdirse;
+a >= b - T verir, eger a b-den boyuk ve ya =dirse,
+a <= b - T verir, eger a b-den kicik ve ya =dirse.
